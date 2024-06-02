@@ -29,7 +29,9 @@ Este proyecto consiste en poner en practica los conocimientos adquiridos en el S
 A continuación, te indico los software y herramientas, que necesitas para instalar y ejecutar este proyecto:
 
 1.Lenguaje de programación Python 3.12
+
 2.Pycharm
+
 3.GitHub
 
 
@@ -48,4 +50,5 @@ Use Git para el versionado. Para las versiones disponibles, ve las etiquetas en 
 Lyda Matallana Cohorte 10
 
 Con la guía de Tripleten (Material de estudio y orientación de las Instructoras)
+
 
