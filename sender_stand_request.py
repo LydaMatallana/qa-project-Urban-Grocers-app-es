@@ -11,7 +11,7 @@ response = post_new_user(data.user_body);
 print(response.status_code)
 print(response.json())
 
-def post_new_client_kit(kit_body):# Funcion para crear kit
+def post_new_client_kit(kit_body):# Funcion para crear un kit
     # Realiza una solicitud POST para crear kits
     return requests.post(configuration.URL_SERVICE + configuration.KITS_PATH, # Concatenación de URL base y ruta.
                          json=kit_body,# inserta el cuerpo de solicitud

@@ -83,7 +83,7 @@ def test_create_kit_has_number_in_kit_body_get_sucess_response():
 
 # Prueba 8. Error. Falta el parámetro Kit Body en la solicitud
 def test_create_kit_no_kit_body_get_error_response():
-    # El diccionario con el cuerpo de la solicitud se copia del archivo "data" a la variable "kit_body"
+    # El diccionario con el cuerpo de la solicitud se copia del archivo "data" a la variable kit_body
     kit_body = data.kit_body.copy()
     # El parámetro "name" se elimina de la solicitud
     kit_body.pop("name")
