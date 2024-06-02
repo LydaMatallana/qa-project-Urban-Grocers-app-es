@@ -21,7 +21,7 @@ Este proyecto consiste en poner en practica los conocimientos adquiridos en el S
 
 4.Consta de 6 archivos: configuration.py, data.py, sender_stand_request.py, create_kit_name_kit_test.py, gitignore and README.
 
-5.Ejecuta todas las pruebas con el comando pytest.***
+5.Ejecuta todas las pruebas con el comando pytest.
 
 
 ## Prerrequisitos:
@@ -37,7 +37,6 @@ A continuación, te indico los software y herramientas, que necesitas para insta
 
 ## Construido Con:
 
-Construido Con:
 Python  3.12
 
 ## Versionado
@@ -50,5 +49,6 @@ Use Git para el versionado. Para las versiones disponibles, ve las etiquetas en 
 Lyda Matallana Cohorte 10
 
 Con la guía de Tripleten (Material de estudio y orientación de las Instructoras)
+
 
 
