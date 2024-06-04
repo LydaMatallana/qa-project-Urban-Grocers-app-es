@@ -13,15 +13,15 @@ def get_kit_body(name):
 def positive_assert(name):
     # El cuerpo de la solicitud actualizada se guarda en la variable kit_body
     kit_body = get_kit_body(name)
+    response = sender_stand_request.post_new_user(data.user_body)
     # El resultado de la solicitud para crear un nuevo kit se guarda en la variable response
     response = sender_stand_request.post_new_client_kit(kit_body)
 
     # Comprueba si el código de estado es 201
     assert response.status_code == 201
-    # Comprueba que el campo authToken está en la respuesta y contiene un valor
 
-    # String que debe estar en el cuerpo de respuesta
-    str_kit = kit_body["name"]
+    # Compara el nombre que se tiene en la variable kit_body con el nombre que trae la respuesta del JSON
+    assert kit_body["name"] == response.json()["name"]
 
 
 
@@ -29,7 +29,7 @@ def positive_assert(name):
 def negative_assert_symbol(name):
     # El cuerpo de la solicitud actualizada se guarda en la variable kit_body
     kit_body = get_kit_body(name)
-
+    response = sender_stand_request.post_new_user(data.user_body)
     # El resultado se guarda en la variable response
     response = sender_stand_request.post_new_client_kit(kit_body)
 

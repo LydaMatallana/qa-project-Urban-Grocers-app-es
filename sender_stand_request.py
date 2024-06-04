@@ -7,9 +7,7 @@ def post_new_user(body):# Funcion para crear nuevo usuario
                          json=body,# inserta el cuerpo de solicitud
                          headers=data.headers) # inserta los encabezados
 
-response = post_new_user(data.user_body);
-print(response.status_code)
-print(response.json())
+
 
 def post_new_client_kit(kit_body):# Funcion para crear un kit
     # Realiza una solicitud POST para crear kits
@@ -17,7 +15,5 @@ def post_new_client_kit(kit_body):# Funcion para crear un kit
                          json=kit_body,# inserta el cuerpo de solicitud
                          headers=data.headers)# inserta los encabezados
 
-response = post_new_client_kit(data.kit_body);
-print(response.status_code)
-print(response.json())
+
 
