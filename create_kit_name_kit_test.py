@@ -2,7 +2,7 @@ import sender_stand_request
 import data
 
 
-# Crea un nuevo diccionario user_body a partir del diccionario user_body de data.py
+
 def get_kit_body(first_name):
     # Copiar el diccionario con el cuerpo de la solicitud desde el archivo de datos
     user_body = data.user_body.copy()
