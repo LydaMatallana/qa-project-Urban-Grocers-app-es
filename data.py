@@ -1,6 +1,5 @@
 headers = {
-    "Content-Type": "application/json",
-    "Authorization": "Bearer [authToken]"
+    "Content-Type": "application/json"
 }
 
 user_body = {
@@ -12,3 +11,4 @@ user_body = {
 kit_body = {
     "name": "ListaMenuDomingo"
 }
+

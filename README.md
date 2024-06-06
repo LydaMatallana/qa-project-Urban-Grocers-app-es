@@ -15,7 +15,7 @@ Este proyecto consiste en poner en practica los conocimientos adquiridos en el S
 
 1.Se debe incluir dirección del servidor en configuration.py cuando se vayan a ejecutar las pruebas. Tener en cuenta que la dirección del servidor es proporcionada para la aplicación de Triple Ten, este enlace solo tiene una duración de dos horas.
 
-2.Es recomendable consultar la documentación de la API de la aplicación de Urban Grocers: https://cnt-01d833a3-a96e-4aa4-b2c5-eab25bcd57b4.containerhub.tripleten-services.com/docs/
+2.Es recomendable consultar la documentación de la API de la aplicación de Urban Grocers: https://cnt-d3bc0632-62e4-436a-963c-d6ede885ab10.containerhub.tripleten-services.com
 3.Necesitas tener instalados los paquetes pytest y request para ejecutar las pruebas.
 
 4.Consta de 6 archivos: configuration.py, data.py, sender_stand_request.py, create_kit_name_kit_test.py, gitignore and README.
